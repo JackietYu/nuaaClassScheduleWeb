@@ -453,7 +453,7 @@ def week_schedule(list_lessonObj):
     print('本周课表前端格式')
     print(list_lesson)
     print('正在写入本周课表前端格式')
-    filename = 'src/weekschedule.txt'
+    filename = 'docs/weekschedule.txt'
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(str(list_lesson))
         f.close()
