@@ -122,8 +122,7 @@ def create_exam_ics(cal, exams):
 
 
 def export_ics(cal, semester_year, semester, stuID):
-    filename = 'NUAAiCal-Data/Schedule_' + stuID + \
-        '_' + semester_year + '-' + semester + '.ics'
+    filename = 'docs/Schedule.ics'
 
     if os.path.exists('NUAAiCal-Data'):
         # print('Directory exists.')

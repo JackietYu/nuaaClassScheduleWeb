@@ -395,8 +395,7 @@ def exportCourseTable(list_lessonObj, list_examObj, semester_year, semester, stu
     :param stuID {str}学号
     :return: None
     """
-    filename = 'NUAAiCal-Data/Schedule_' + stuID + \
-               '_' + semester_year + '-' + semester + '.txt'
+    filename = 'docs/Schedule.txt'
     with open(filename, 'w', encoding='utf-8') as output_file:
         try:
             course_cnt = 1
@@ -453,8 +452,11 @@ def week_schedule(list_lessonObj):
     print('本周课表前端格式')
     print(list_lesson)
     print('正在写入本周课表前端格式')
-    filename = 'docs/weekschedule.txt'
+    filename = 'docs/weekschedule.js'
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write(str(list_lesson))
+        f.write('''var courseList1 =  new Array();
+courseList1 = {};
+        '''.format(str(list_lesson)))
+        f.write('var week ='+str(weekNum)+';')
         f.close()
     return list_lesson

@@ -1,0 +1,302 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//miaotony//NUAA_ClassSchedule//CN
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200902T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200902T154500
+DESCRIPTION: \n当前周次：1 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200909T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200909T154500
+DESCRIPTION: \n当前周次：2 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200916T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200916T154500
+DESCRIPTION: \n当前周次：3 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200923T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200923T154500
+DESCRIPTION: \n当前周次：4 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200930T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200930T154500
+DESCRIPTION: \n当前周次：5 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201007T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201007T154500
+DESCRIPTION: \n当前周次：6 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201014T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201014T154500
+DESCRIPTION: \n当前周次：7 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201021T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201021T154500
+DESCRIPTION: \n当前周次：8 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201028T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201028T154500
+DESCRIPTION: \n当前周次：9 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,9
+ \,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/
+ miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201104T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201104T154500
+DESCRIPTION: \n当前周次：10 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,
+ 9\,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com
+ /miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201111T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201111T154500
+DESCRIPTION: \n当前周次：11 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,
+ 9\,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com
+ /miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:校企毕业设计
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201118T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201118T154500
+DESCRIPTION: \n当前周次：12 \n上课周次：1\,2\,3\,4\,5\,6\,7\,8\,
+ 9\,10\,11\,12 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com
+ /miaotony/NUAA_ClassSchedule 
+LOCATION:D3310(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200831T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200831T120000
+DESCRIPTION:夏永君 \n当前周次：1 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200907T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200907T120000
+DESCRIPTION:夏永君 \n当前周次：2 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200914T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200914T120000
+DESCRIPTION:夏永君 \n当前周次：3 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200921T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200921T120000
+DESCRIPTION:夏永君 \n当前周次：4 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200928T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200928T120000
+DESCRIPTION:夏永君 \n当前周次：5 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201005T101500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201005T120000
+DESCRIPTION:夏永君 \n当前周次：6 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200903T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200903T154500
+DESCRIPTION:夏永君 \n当前周次：1 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200910T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200910T154500
+DESCRIPTION:夏永君 \n当前周次：2 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200917T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200917T154500
+DESCRIPTION:夏永君 \n当前周次：3 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200924T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200924T154500
+DESCRIPTION:夏永君 \n当前周次：4 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201001T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201001T154500
+DESCRIPTION:夏永君 \n当前周次：5 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:集成电路计算机辅助分析
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201008T140000
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201008T154500
+DESCRIPTION:夏永君 \n当前周次：6 \n上课周次：1\,2\,3\,4\,5\,6
+  \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUA
+ A_ClassSchedule 
+LOCATION:D3414(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200903T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200903T180000
+DESCRIPTION:牛臻弋 \n当前周次：1 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200910T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200910T180000
+DESCRIPTION:牛臻弋 \n当前周次：2 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200917T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200917T180000
+DESCRIPTION:牛臻弋 \n当前周次：3 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200924T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20200924T180000
+DESCRIPTION:牛臻弋 \n当前周次：4 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201001T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201001T180000
+DESCRIPTION:牛臻弋 \n当前周次：5 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201008T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201008T180000
+DESCRIPTION:牛臻弋 \n当前周次：6 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201015T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201015T180000
+DESCRIPTION:牛臻弋 \n当前周次：7 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201022T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201022T180000
+DESCRIPTION:牛臻弋 \n当前周次：8 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:科技学术讲座
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201029T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201029T180000
+DESCRIPTION:牛臻弋 \n当前周次：9 \n上课周次：1\,2\,3\,4\,5\,6
+ \,7\,8\,9 \n\nPowered by NUAA_ClassSchedule. \nURL: https://github.com/mia
+ otony/NUAA_ClassSchedule 
+LOCATION:4101(将军路)
+END:VEVENT
+END:VCALENDAR
