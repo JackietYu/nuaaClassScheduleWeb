@@ -13,7 +13,7 @@
             margin: 0 auto;
             padding: 15px 10px;
             max-width: 1340px;
-            min-width: 340px;
+            min-width: 300px;
         }
         
         .Courses-head {
@@ -56,7 +56,7 @@
         
         .Courses-leftHand>div {
             padding-top: 5px;
-            border-bottom: 1px dashed rgb(219, 219, 219);
+            border-bottom: 1px dashed #dbdbdb;
         }
         
         .Courses-leftHand>div:last-child {
@@ -69,7 +69,7 @@
         }
         
         .Courses-content>ul {
-            border-bottom: 1px dashed rgb(219, 219, 219);
+            border-bottom: 1px dashed #dbdbdb;
             box-sizing: border-box;
         }
         
@@ -113,7 +113,8 @@
         }
         
         .download {
-            width: 100%;
+            margin: 0 auto;
+            max-width: 800px;
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -147,6 +148,9 @@
         $('#title').html('第' + week + '周课表');
     </script>
     <div id="coursesTable"></div>
+    <button onclick="onChange()" style="background-color: #00a2ae; color: #fff; padding: 5px 10px; border-radius: 4px;border: none">
+    切换课表
+</button>
     <script>
         console.log(week);
 
@@ -212,17 +216,34 @@
                 console.log(e);
             },
             styles: {
-                Gheight: 50
+                Gheight: 55
             }
         });
+        //切换课表
+        function onChange() {
+            var courseListOther = courseList1;
+
+            Timetable.setOption({
+                timetables: courseListOther,
+                week: ['一', '二', '三', '四', '五', '六', '日'],
+                styles: {
+                    palette: ['#ffd061', '#ff4081']
+                },
+                timetableType: courseType,
+                gridOnClick: function(e) {
+                    alert(e.name + '  ' + e.week + ', 第' + e.index + '节课, 课长' + e.length + '节');
+                    console.log(e);
+                }
+            });
+        };
     </script>
     <div class="download">
         <div class="box"><a href="Schedule.ics">下载ics日历文件</a></div>
         <div class="box">
-            <a href="Schedule.xlsx">下载xlsx文件</a>
+            <a href="Schedule.xlsx">下载xlsx课表文件</a>
         </div>
         <div class="box">
-            <a href="Schedule.txt">下载txt文件</a>
+            <a href="Schedule.txt">下载txt课表文件</a>
         </div>
     </div>
 </body>

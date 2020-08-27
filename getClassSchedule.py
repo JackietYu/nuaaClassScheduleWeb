@@ -448,7 +448,7 @@ def week_schedule(list_lessonObj):
             lesson = list.courseName + list.roomName
             print(lesson)
             for num in j:
-                list_lesson[i][int(num)] = lesson
+                list_lesson[i][int(num)-1] = lesson
     print('本周课表前端格式')
     print(list_lesson)
     print('正在写入本周课表前端格式')
