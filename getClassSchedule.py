@@ -423,7 +423,7 @@ def week_schedule(list_lessonObj):
     print('开始解析当前周的课表')
     # d1 = datetime(2020, 7, 31)
     # today = datetime(2020, 10, 30)
-    inputTimeStr = '2020.7.31'
+    inputTimeStr = '2020.8.3'
     d1 = datetime.strptime(inputTimeStr, '%Y.%m.%d')
     today = datetime.now()
     interval = today - d1
