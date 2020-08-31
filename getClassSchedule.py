@@ -46,16 +46,17 @@ headers = {
 session.headers = headers
 host = r'http://aao-eas.nuaa.edu.cn'
 
-appId = os.environ.get('APPID')
-apiKey = os.environ.get('APIKEY')
-secretKey = os.environ.get('SECRETKEY')
+
 
 # 文字识别
 def get_file_content(file):
     with open(file, 'rb') as fp:
         return fp.read()
 
-def img_to_str(image_path,appId,apiKey,secretKey):
+def img_to_str(image_path):
+    appId = str(os.environ.get('APPID'))
+    apiKey = str(os.environ.get('APIKEY'))
+    secretKey = str(os.environ.get('SECRETKEY'))
     print('appId:'+appId)
     config = {
         'appId': appId,
