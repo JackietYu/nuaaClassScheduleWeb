@@ -45,16 +45,21 @@ headers = {
 session.headers = headers
 host = r'http://aao-eas.nuaa.edu.cn'
 
+appId = os.environ.get('APPID')
+apiKey = os.environ.get('APIKEY')
+secretKey = os.environ.get('SECRETKEY')
+
 # 文字识别
 def get_file_content(file):
     with open(file, 'rb') as fp:
         return fp.read()
 
-def img_to_str(image_path):
+def img_to_str(image_path,appId,apiKey,secretKey):
+    print('appId:'+appId)
     config = {
-        'appId': '19099446',
-        'apiKey': 'CaKSFYkYzCl98K6hVxT1ji2q',
-        'secretKey': 'cgW37s22yBcXVVCDFbA99pxy7gE8h9Pl'
+        'appId': appId,
+        'apiKey': apiKey,
+        'secretKey': secretKey
     }
     client = AipOcr(**config)
     image = get_file_content(image_path)
