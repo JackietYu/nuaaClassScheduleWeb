@@ -19,6 +19,7 @@ from lessonObj import Lesson
 from examObj import Exam
 from datetime import datetime,date
 from aip import AipOcr
+import os
 
 session = requests.Session()
 UAs = [
