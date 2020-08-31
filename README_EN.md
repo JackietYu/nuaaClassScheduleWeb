@@ -4,6 +4,8 @@
 
 ## Description
 
+This project is based on [@miaotony](https://github.com/miaotony)'s [NUAA_ClassSchedule](https://github.com/miaotony/NUAA_ClassSchedule), thanks for his contribution.
+
 Log in to NUAA's new educational administration system to obtain class schedule and exam information, and parse it to generate iCal calendar and xlsx form files, and then import them into calendars such as Outlook.
 
 The parsing generates a .js file containing the current week information of the timetable, and the front-end parses and generates an online timetable, so that viewing the timetable does not require a complicated login process.

@@ -1,10 +1,12 @@
-# 基于NUAA_ClassSchedule项目的在线课表
+# 基于NUAA_ClassSchedule项目的在线南航课表
 
 [English  introduction](README_EN.md)
 
 ## 介绍
 
-本项目的基本功能：登录南京航空航天大学新教务系统，获取课表及考试信息，解析后生成 iCal 日历及 xlsx 表格文件，进而导入 Outlook 等日历。同时，解析生成课表当前周信息的js文件，前端解析生成在线课表，从此查看课表不在需要复杂的登录流程。
+本项目的爬虫基于[NUAA_ClassSchedule](https://github.com/miaotony/NUAA_ClassSchedule)简单修改开发，感谢[@miaotony](https://github.com/miaotony)大佬的开源。
+
+此项目的基本功能：登录南京航空航天大学新教务系统，获取课表及考试信息，解析后生成 iCal 日历及 xlsx 表格文件，进而导入 Outlook 等日历。同时，解析生成课表当前周信息的js文件，前端解析生成在线课表，从此查看课表不在需要复杂的登录流程。
 
 
 
