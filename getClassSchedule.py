@@ -185,7 +185,7 @@ def aao_login(stuID, stuPwd, captcha_str):
                 re_semesterInfo = re.compile(r'(\d{4}-\d{4})第(\d{1})学期')
                 semester_info = re_semesterInfo.search(semester_info_raw)
                 semester_info = semester_info[1] + '-' + semester_info[2]
-                print("Login OK!\nHello, {}!".format(name))
+                print("Login OK!\n")
                 print("The current semester is {}.".format(semester_info))
                 return name, semester_info
         else:
