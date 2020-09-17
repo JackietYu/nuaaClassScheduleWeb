@@ -191,4 +191,49 @@ DESCRIPTION:牛臻弋 \n当前周次：9 \n上课周次：1\,2\,3\,4\,5\,6
  otony/NUAA_ClassSchedule 
 LOCATION:4101(将军路)
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:体育（七）
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201007T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201007T180000
+DESCRIPTION: \n当前周次：6 \n上课周次：6\,7\,8\,9\,10 \n\nPowere
+ d by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUAA_ClassSche
+ dule 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:体育（七）
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201014T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201014T180000
+DESCRIPTION: \n当前周次：7 \n上课周次：6\,7\,8\,9\,10 \n\nPowere
+ d by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUAA_ClassSche
+ dule 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:体育（七）
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201021T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201021T180000
+DESCRIPTION: \n当前周次：8 \n上课周次：6\,7\,8\,9\,10 \n\nPowere
+ d by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUAA_ClassSche
+ dule 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:体育（七）
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201028T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201028T180000
+DESCRIPTION: \n当前周次：9 \n上课周次：6\,7\,8\,9\,10 \n\nPowere
+ d by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUAA_ClassSche
+ dule 
+LOCATION:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:体育（七）
+DTSTART;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201104T161500
+DTEND;TZID=Asia/Shanghai;VALUE=DATE-TIME:20201104T180000
+DESCRIPTION: \n当前周次：10 \n上课周次：6\,7\,8\,9\,10 \n\nPower
+ ed by NUAA_ClassSchedule. \nURL: https://github.com/miaotony/NUAA_ClassSch
+ edule 
+LOCATION:
+END:VEVENT
 END:VCALENDAR
