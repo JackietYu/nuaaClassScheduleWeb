@@ -111,10 +111,14 @@ if __name__ == "__main__":
         # captcha_str = input('Please input the captcha: ')
         cap_len = 0
         captcha_str = ''
-        while cap_len<4:
+        img_use_num = 0
+        while cap_len != 4:
             captcha_str = img_to_str(img_path)
             captcha_str = captcha_str.replace(' ', '')
             cap_len = len(captcha_str)
+            img_use_num += 1
+            if img_use_num > 5:
+                break
         print(captcha_str)
         print()  # 加个空行好看一点
 
@@ -125,11 +129,11 @@ if __name__ == "__main__":
 
         # 开始登录
         name, semester_current = aao_login(stuID, stuPwd, captcha_str)
-#         if semester_str == '':
-#             # 若之前的参数为空则在控制台获取学期信息
-#             semester_str = input("""
-# Please input the semester you want to query, e.g. `2020-2021-1`: (the current semester by default)
-# 请注意格式，`2020-2021-1`即2020-2021学年第1学期，若查询当前学期请直接敲回车\n""")
+        #         if semester_str == '':
+        #             # 若之前的参数为空则在控制台获取学期信息
+        #             semester_str = input("""
+        # Please input the semester you want to query, e.g. `2020-2021-1`: (the current semester by default)
+        # 请注意格式，`2020-2021-1`即2020-2021学年第1学期，若查询当前学期请直接敲回车\n""")
         if semester_str == '':
             # 若输入仍为空则默认为当前学期
             semester_str = semester_current
