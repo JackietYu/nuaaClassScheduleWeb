@@ -20,6 +20,7 @@ from examObj import Exam
 from datetime import datetime,date
 from aip import AipOcr
 import os
+import sys
 
 session = requests.Session()
 UAs = [
@@ -122,15 +123,16 @@ def getSemesterFirstDay(semester_str: str):
     return semester_year, semester, year, month, day
 
 
-def aao_login(stuID, stuPwd, captcha_str):
+def aao_login(stuID, stuPwd):
     """
     登录新教务系统
     :param stuID: 学号
     :param stuPwd: 密码
-    :param captcha_str: 验证码
     :return name: {str} 姓名(学号)
     :return semester_info: {str} 学期信息，如 `2020-2021-1`
     """
+    captcha_str = get_cap()
+
     # session.cookies.clear()  # 先清一下cookie
     r1 = session.get(host + '/eams/login.action')
     r1.encoding = 'utf-8'
@@ -467,3 +469,30 @@ courseList1 = {};
         f.write('var week ='+str(weekNum)+';')
         f.close()
     return list_lesson
+
+def get_cap():
+    captcha_resp = session.get(
+        host + '/eams/captcha/image.action')  # Captcha 验证码图片
+    img_path = os.path.join(os.getcwd(), 'captcha.jpg')
+    with open(img_path, 'wb') as captcha_fp:
+        captcha_fp.write(captcha_resp.content)
+        captcha_fp.close()
+
+    cap_len = 0
+    captcha_str = ''
+    img_use_num = 0
+    while cap_len != 4:
+        captcha_str = img_to_str(img_path)
+        captcha_str = captcha_str.replace(' ', '')
+        cap_len = len(captcha_str)
+        img_use_num += 1
+        if img_use_num > 5:
+            break
+    print(captcha_str)
+    print()  # 加个空行好看一点
+
+    # 删除验证码图片
+    if sys.platform.find('darwin') >= 0:
+        os.system("osascript -e 'quit app \"Preview\"'")
+    os.remove(img_path)
+    return captcha_str
